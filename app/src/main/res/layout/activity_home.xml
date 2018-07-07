@@ -1,43 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity"
     tools:layout_editor_absoluteY="25dp">
 
-    <TextView
-        android:id="@+id/textView"
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/welcome_ultimate_athlete"
-        android:background="#B2EBF2"
-        android:textSize="25sp" />
+        android:layout_margin="1dp"
+        android:background="#00dc00"
+        android:orientation="vertical">
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/upper_body"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <!--<ImageView-->
-        <!--android:src="@drawable/Straddle-Planche"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:scaleType="center"/>-->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="@string/welcome_ultimate_athlete"
+            android:textSize="25sp" />
+        <!--android:background="#B2EBF2"-->
 
 
+        <Button
+            android:id="@+id/ButtonUpperBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#02eee6"
+            android:text="Upper Body" />
 
-    <!--<ImageButton-->
-        <!--android:id="@+id/imageButton"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--app:srcCompat="?android:attr/dividerHorizontal" />-->
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lower Body" />
 
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Core" />
 
+        <Button
+            android:id="@+id/buttonUpperBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HandStand" />
+
+        <Button
+            android:id="@+id/buttonUpperBody2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Middle split" />
+
+        <Button
+            android:id="@+id/buttonUpperBody3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Front split" />
+
+        <Button
+            android:id="@+id/buttonUpperBody4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thoracic Bridge" />
+
+        <Button
+            android:id="@+id/buttonUpperBody5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movement" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guest List"
+            android:textSize="20sp" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
